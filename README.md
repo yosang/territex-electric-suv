@@ -33,7 +33,7 @@ The goal was to create a visually appealing and responsive website while pushing
 
 ## Screenshots
 
-![Hero Section](https://i.imgur.com/duEV3o5.gif)
+![Hero Section](https://i.imgur.com/2fAuG8C.png)
 ![Split Tailgate Feature](https://i.imgur.com/GDUKKHO.png)
 
 ### Installation & Usage
