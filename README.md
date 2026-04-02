@@ -26,7 +26,7 @@ The goal was to create a visually appealing and responsive website while pushing
 ## Tech Stack
 
 - **React** (Components and JSX)
-- **@yosang/react-ui** – My own custom React component library (published on npm)
+- [@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui) – My own custom React component library
 - **Inline styles**  (minimal, the library holds the heavy styling)
 - **Vite**
 - **Custom UI Library:** [\@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui)
