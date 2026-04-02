@@ -14,8 +14,8 @@ export default function App() {
                 </Container>
 
                 <Container direction="row" style={{ justifyContent: "center", backgroundColor: "transparent" }}>
-                    <Button variant="secondary">Bygg din egen</Button>
-                    <Button variant="tertiary">Få tilbud</Button>
+                    <Button style={{ backgroundColor: "black", width: "12rem", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "550" }} rippleEffect={false}>Bygg din egen</Button>
+                    <Button variant="tertiary" style={{ width: "12rem", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "500" }} >Les mer</Button>
                 </Container>
                 <Container direction="row" style={{ marginTop: "200px", backgroundColor: "transparent" }}>
                     <Container style={{ backgroundColor: "transparent" }}>
@@ -84,7 +84,7 @@ export default function App() {
                 <Container>
                     <h1>Bredt utvalg av farger</h1>
                     <p>Velg mellom flere stilrene farger som passer din personlighet og livsstil.</p>
-                    <Button variant="secondary">Få tilbud</Button>
+                    <Button variant="secondary" style={{ backgroundColor: "black", width: "12rem", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "550" }} rippleEffect={false} >Få tilbud</Button>
                 </Container>
 
             </Container>

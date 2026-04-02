@@ -19,8 +19,8 @@ function App() {
         </NavItems>
 
         <NavItems >
-          <Button variant='secondary'>Få tilbud</Button>
-          <Button variant='tertiary'>Prøvekjøring</Button>
+          <Button style={{ backgroundColor: "black", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "550" }} rippleEffect={false}>Få tilbud</Button>
+          <Button variant='tertiary' style={{ display: "flex", justifyContent: "center", height: "3rem", fontWeight: "500" }} rippleEffect={false} >Prøvekjøring</Button>
         </NavItems>
 
       </Navbar>
