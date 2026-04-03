@@ -1,10 +1,14 @@
 import { Button, Container, Hero, ProductCard } from "@yosang/react-ui";
 
+import './styles.css'
+
 export default function App() {
+    const isMobileScreen = window.innerWidth < 600;
+
     return (
         <>
-            <Hero style={{ minHeight: "600px" }} type="video" src="https://i.imgur.com/Ap6NV5k.mp4">
-                <Container style={{ gap: 0, backgroundColor: "transparent" }}>
+            <Hero style={{ minHeight: isMobileScreen ? "1000px" : "600px", overflow: "hidden" }} type="video" src="https://i.imgur.com/Ap6NV5k.mp4">
+                <Container style={{ textAlign: "center", gap: 0, backgroundColor: "transparent" }}>
                     <h1>TERRI</h1>
                     <h2>Norges mest prisvennlige elektriske SUV</h2>
                     <h2>Fra 244 900 kr</h2>
@@ -13,9 +17,9 @@ export default function App() {
 
                 <Container direction="row" style={{ justifyContent: "center", backgroundColor: "transparent" }}>
                     <Button style={{ backgroundColor: "black", width: "12rem", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "550" }} rippleEffect={false}>Bygg din egen</Button>
-                    <Button variant="tertiary" style={{ width: "12rem", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "500" }} >Les mer</Button>
+                    <Button variant="tertiary" style={{ width: "12rem", display: "flex", justifyContent: "center", height: "3rem", fontWeight: "500" }} rippleEffect={false}>Les mer</Button>
                 </Container>
-                <Container direction="row" style={{ marginTop: "200px", backgroundColor: "transparent" }}>
+                <Container className="hero-margin" direction="row" >
                     <Container style={{ backgroundColor: "transparent" }}>
                         <h1>340 km</h1>
                         <h3>Rekkevidde</h3>
@@ -38,7 +42,7 @@ export default function App() {
                     </Container>
                 </Container>
             </Hero>
-            <Container centered={true} style={{ textAlign: "center", width: "80vh", margin: "5% auto" }}>
+            <Container centered={true} style={{ textAlign: "center", margin: "5% auto" }}>
                 <h1>Mer plass. Mer frihet</h1>
                 <p><strong>TERRI</strong> er en helelektrisk SUV som kombinerer smart design, praktiske løsninger og god rekkevidde, spesielt tilpasset norske veier og klima.</p>
                 <br />
@@ -46,7 +50,7 @@ export default function App() {
             </Container>
             <Hero type="video" src="https://i.imgur.com/OKfruqh.mp4" />
             <Container direction="row" style={{ margin: "2rem 0" }}>
-                <img style={{ borderRadius: "1rem", width: "600px" }} src="https://i.imgur.com/aE2CEAp.jpeg" />
+                <img className="tailgate-img" src="https://i.imgur.com/aE2CEAp.jpeg" />
                 <Container>
                     <h1>Split Tailgate – praktisk i hverdagen</h1>
                     <p>
@@ -78,7 +82,7 @@ export default function App() {
                 " />
             </Container>
             <Container direction="row" style={{ margin: "2rem 0" }}>
-                <img style={{ borderRadius: "1rem", width: "800px" }} src="https://i.imgur.com/fcURsJN.jpeg" />
+                <img className="colors-img" src="https://i.imgur.com/fcURsJN.jpeg" />
                 <Container>
                     <h1>Bredt utvalg av farger</h1>
                     <p>Velg mellom flere stilrene farger som passer din personlighet og livsstil.</p>

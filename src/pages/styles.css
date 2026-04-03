@@ -1,0 +1,35 @@
+.hero-margin {
+    overflow-y: hidden;
+    margin-top: 200px;
+    background-color: transparent;
+    
+    display: flex;
+}
+
+.tailgate-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.colors-img {
+    width: 800px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+@media(max-width: 600px){
+    .hero-margin {
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    .tailgate-img {
+        width: 300px;
+    }
+
+    .colors-img {
+        width: 300px;
+    }
+}
