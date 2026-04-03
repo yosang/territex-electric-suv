@@ -1,10 +1,8 @@
 import { Button, Container, Hero, ProductCard } from "@yosang/react-ui";
-import PageFooter from './PageFooter'
 
 export default function App() {
     return (
         <>
-
             <Hero style={{ minHeight: "600px" }} type="video" src="https://i.imgur.com/Ap6NV5k.mp4">
                 <Container style={{ gap: 0, backgroundColor: "transparent" }}>
                     <h1>TERRI</h1>
@@ -88,7 +86,6 @@ export default function App() {
                 </Container>
 
             </Container>
-            <PageFooter />
         </>
     )
 }

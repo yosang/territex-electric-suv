@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@yosang/react-ui": "^1.17.0",
+    "@yosang/react-ui": "^1.18.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
