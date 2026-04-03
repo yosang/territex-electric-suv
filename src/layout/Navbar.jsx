@@ -1,7 +1,9 @@
 import { Navbar, NavItems, NavLogo, NavLink, Button } from '@yosang/react-ui'
+import useIsMobile from '../utils/useIsMobile'
 
 function App() {
-    const isMobileScreen = window.innerWidth < 600;
+    const isMobileScreen = useIsMobile();
+
     return (
         <Navbar style={{ fontWeight: 800 }} sticky={!isMobileScreen}>
 

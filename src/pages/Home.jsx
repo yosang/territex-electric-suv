@@ -1,23 +1,10 @@
 import { Button, Container, Hero, ProductCard } from "@yosang/react-ui";
-
 import './styles.css'
-import { useEffect, useState } from "react";
+
+import useIsMobile from "../utils/useIsMobile";
 
 export default function App() {
     const isMobileScreen = useIsMobile();
-
-    function useIsMobile() {
-        const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
-
-        useEffect(() => {
-            const handleResize = () => setIsMobile(window.innerWidth < 600);
-            window.addEventListener("resize", handleResize);
-            return () => window.removeEventListener("resize", handleResize);
-
-        }, []);
-
-        return isMobile;
-    }
 
     return (
         <>
