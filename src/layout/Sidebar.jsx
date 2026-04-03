@@ -13,7 +13,7 @@ function App() {
             </Navbar>
 
             <Drawer isOpen={open} onClose={() => setOpen(false)} side='left' >
-                <Container direction='vertical' style={{ height: "90vh", justifyContent: "space-between" }}>
+                <Container direction='vertical' style={{ height: "80vh", justifyContent: "space-between" }}>
                     <div>
                         <NavLogo src='https://i.imgur.com/PQuW45F.png' />
                         <NavItems>
