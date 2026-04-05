@@ -10,17 +10,17 @@ This is a landing page for an electric vehicle, designed with clean style, smoot
 
 ## Features
 
-- **Responsive** design that works great on mobile, tablet and desktop
-- **Hero sections** that support images and videos
-- **Layout system** using the custom Container component
-- **Reusable UI components** (Navbar, Container, Button, ProductCard, Hero, etc.)
+- Responsive design that works great on mobile, tablet and desktop
+- Hero sections that support images and videos
+- Layout system using the custom Container component
+- Reusable UI components (Navbar, Container, Button, ProductCard, Hero, etc.)
 
 ## Technologies
 
-- **React** (Components and JSX)
+- React
 - [@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui)
-- **Vite**
-- **Custom UI Library:** [\@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui)
+- Vite
+- Custom UI Library: [\@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui)
 
 ## Screenshots
 
