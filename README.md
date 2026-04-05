@@ -1,22 +1,19 @@
 # TERRI Electric SUV Frontend
 
-A modern, responsive website for a fictional electric SUV called **TERRI**. Built as a **portfolio project** to demonstrate the capabilities of my custom React UI component library.
+A modern, responsive website for a fictional electric SUV called TERRI. Built as a portfolio project to showcase the capabilities of my custom React UI component library.
 
-**DEMO:** https://territex-electric-suv.vercel.app/
+DEMO: https://territex-electric-suv.vercel.app/
 
 ## About
 
-This project is a realistic landing page for an electric vehicle, designed with clean style, smooth video hero sections, and a strong focus on user experience. It showcases a complete, frontend built entirely with my own React component library `@yosang/react-ui`.
-
-The goal was to create a visually appealing and responsive website while pushing the limits of the UI library (Hero with video support, flexible Container system, ProductCard, Button variants, etc.).
+This is a landing page for an electric vehicle, designed with clean style, smooth video hero sections, and a strong focus on user experience. It showcases a complete, frontend built entirely with my own React component library `@yosang/react-ui`.
 
 ## Features
 
-- **Fully responsive** design that works great on mobile, tablet and desktop
-- **Video hero sections** with overlay content
-- **Flexible layout system** using the custom Container component
+- **Responsive** design that works great on mobile, tablet and desktop
+- **Hero sections** that support images and videos
+- **Layout system** using the custom Container component
 - **Reusable UI components** (Navbar, Container, Button, ProductCard, Hero, etc.)
-- Smooth scrolling and modern typography
 
 ## Technologies
 
