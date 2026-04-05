@@ -1,4 +1,4 @@
-# TERRI – Electric SUV Website
+# TERRI Electric SUV Frontend
 
 A modern, responsive website for a fictional electric SUV called **TERRI**. Built as a **portfolio project** to demonstrate the capabilities of my custom React UI component library.
 
