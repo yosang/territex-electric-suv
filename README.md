@@ -6,14 +6,9 @@ A modern, responsive website for a fictional electric SUV called **TERRI**. Buil
 
 ## # About
 
-This project is a realistic landing page for an electric vehicle, designed with clean style, smooth video hero sections, and a strong focus on user experience. It showcases a complete, production-like frontend built entirely with my own React component library `@yosang/react-ui`.
+This project is a realistic landing page for an electric vehicle, designed with clean style, smooth video hero sections, and a strong focus on user experience. It showcases a complete, frontend built entirely with my own React component library `@yosang/react-ui`.
 
 The goal was to create a visually appealing and responsive website while pushing the limits of the UI library (Hero with video support, flexible Container system, ProductCard, Button variants, etc.).
-
-### Why I built it
-- To test and showcase **@yosang/react-ui** in a real-world scenario
-- To practice creating high-quality marketing websites with custom components
-- To have a strong visual project in my portfolio that recruiters and clients can interact with
 
 ## Features
 
@@ -23,11 +18,10 @@ The goal was to create a visually appealing and responsive website while pushing
 - **Reusable UI components** (Navbar, Container, Button, ProductCard, Hero, etc.)
 - Smooth scrolling and modern typography
 
-## Tech Stack
+## Technologies
 
 - **React** (Components and JSX)
-- [@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui) – My own custom React component library
-- **Inline styles**  (minimal, the library holds the heavy styling)
+- [@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui)
 - **Vite**
 - **Custom UI Library:** [\@yosang/react-ui](https://www.npmjs.com/package/@yosang/react-ui)
 
